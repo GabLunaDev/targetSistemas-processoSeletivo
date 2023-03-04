@@ -14,6 +14,7 @@ for (let i = 0; i < dataImported.length; i++) {
         minValue = dataImported[i].valor;
         sumOfValues += dataImported[i].valor;
         validDays++;
+        values.push(dataImported[i].valor);
         continue;
       }
 
